@@ -2,6 +2,8 @@
 <p align="center">(our OCMS update proposal)</p>
   
 <p align="center"><img src="https://github.com/ayumi-cloud/sc-developer-module/blob/main/src/assets/images/code.svg"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/ayumi-cloud/sc-developer-module/blob/main/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/ayumi-cloud/sc-developer-module/blob/main/src/assets/images/docs.svg" alt="docs"></p>
+  
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-developer-module/blob/main/src/assets/images/cover.jpg"></p>
 
 
 ---------
@@ -9,12 +11,7 @@
   WARNING CURRENTLY BEING WRITTEN
   
 ---------
-  
-  
-  
-  
-  
-<p align="center"><img src="https://github.com/ayumi-cloud/sc-developer-module/blob/main/src/assets/images/cover.png"></p>
+
 
 ## Summer CMS Modules :eyes:
 
