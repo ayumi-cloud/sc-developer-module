@@ -79,7 +79,7 @@ This module aims to identify the following details:
 
 This module has been optimized to work with php `7.4.x` and `8.x` versions - we recommend upgrading from any lower php version.
 
-The developer module has also been optimized to work with twig `2.14.1` and `3.x` versions. Not support for twig version one.
+The developer module has also been optimized to work with twig `2.x` and `3.x` versions. Not support for twig version one.
 
 **A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
 
