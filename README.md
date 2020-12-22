@@ -118,45 +118,7 @@ The developer module has been optimized to work with CSP 3 and allow backwards c
 
 **Installed version**: 3.0 or greater.
 
-- [Minify](https://github.com/matthiasmullie/minify)
 
-**Installed version**: 1.3.0 or greater.
-
-- [CssMin](https://github.com/natxet/CssMin)
-
-**Installed version**: 3.0.0 or greater.
-
-- [YUI Compressor](https://github.com/nervo/yuicompressor)
-
-**Installed version**: 2.4.8 or greater.
-
-- [Twig Compression](https://github.com/nochso/html-compress-twig)
-
-**Installed version**: 2.0.0 or greater.
-
-- [JavaScript minification](https://github.com/tchwork/jsqueeze)
-
-**Installed version**: 2.0.5 or greater.
-
-- [JavaScript minification](https://github.com/tchwork/jsqueeze)
-
-**Installed version**: 2.0.5 or greater.
-
-- [Javascript Minifier](https://github.com/tedious/JShrink)
-
-**Installed version**: 1.3.3 or greater.
-
-- [CSS Minification](https://github.com/wpsharks/css-minifier)
-
-**Installed version**: 150820 or greater.
-
-- [HTML Compression](https://github.com/WyriHaximus/HtmlCompress)
-
-**Installed version**: 1.4.0 or greater.
-
-- [JSON Minifier](https://github.com/ayumi-cloud/sc-developer-module)
- 
- **Installed version**: 2.0.1 or greater.
  
 
 
