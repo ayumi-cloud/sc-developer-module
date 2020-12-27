@@ -28,7 +28,6 @@
 - [Citation](#citation-)
 - [API's](#apis-gem)
 - [Deprecations and removals](#deprecations-and-removals-)
-- [Vendor Packages](#vendor-packages-)
 - [Enhancements](#enhancements-)
 - [Issues](#issues-)
 - [Troubleshooting](#troubleshooting-)
@@ -109,25 +108,6 @@ Below are some of the API's the developer module uses (this is not a complete li
 - [Content Security Policy Level 2](https://www.w3.org/TR/CSP2/)
 
 The developer module has been optimized to work with CSP 3 and allow backwards compatibility with browsers supporting older CSP versions.
-
-## Vendor Packages 🧰
-
-- [Laravel Framework](https://github.com/laravel/framework)
-
-**Installed version**: 6.0 or greater (Summer CMS uses latest LTS version).
-
-- [HTMLPurifier for Laravel](https://github.com/mewebstudio/Purifier)
-
-**Installed version**: 3.0 or greater.
-
-
- 
-
-
-=== TO DO ===
-
-
-
 
 ## Enhancements ⭐
 
