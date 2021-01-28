@@ -17,8 +17,6 @@ For larger more complex sanitization and validation methods third-party librarie
 
 === TO DO ===
 
-- `JS` - 
-
 - `YAML`
 - `XML`
 - `Twig`
@@ -26,7 +24,14 @@ For larger more complex sanitization and validation methods third-party librarie
 
 Below shows which library is being used to clean each coding language:
 
-x
+Programming language | Third party library | Description
+---|---|---
+HTML | HTML Purifier | Sanitization
+Javascript | DOMPurify | Sanitization
+JSON | JSON5 | Parser
+PHP | Laravel | Validation
+
+=== TO DO ===
 
 Invalid sanitization and validation methods are sent to the error module for the developer to view the stack trace. Also the data is sent to the analytics section for full chart analysis.
 
@@ -39,6 +44,9 @@ Some libraries already generate Trusted Types that you can pass to the sink func
 
 ### Validating and Sanitizing API
 
-x
+Value | Description
+---|---
+
+=== TO DO ===
 
 (*) Subject to adding more features as time goes on.
