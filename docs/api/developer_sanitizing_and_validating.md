@@ -22,6 +22,8 @@ For larger more complex sanitization and validation methods third-party librarie
 - `Twig`
 - `CSS`
 
+- Image codecs
+
 Below shows which library is being used to clean each coding language:
 
 Programming language | Third party library | Description
