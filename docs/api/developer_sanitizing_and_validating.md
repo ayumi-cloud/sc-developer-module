@@ -10,7 +10,10 @@ The module also converts formats such as encoding and enconding. For example, an
 
 For larger more complex sanitization and validation methods third-party libraries have been used as they pffer the highest level of complete protection, below mentions a few third-party libraries being used:
 
-x
+ - [HTML Purifier](http://htmlpurifier.org/) - An HTML filter that guards against XSS and ensures standards-compliant output.
+ - [DOMPurify](https://github.com/cure53/DOMPurify)
+ 
+ 
 
 Invalid sanitization and validation methods are sent to the error module for the developer to view the stack trace. Also the data is sent to the analytics section for full chart analysis.
 
