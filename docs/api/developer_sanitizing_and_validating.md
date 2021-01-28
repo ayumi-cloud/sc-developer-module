@@ -76,6 +76,8 @@ cleanNormalize | x
 cleanEmail | x
 
 cleanArray | x
+cleanObject | x
+
 
 ..
 
