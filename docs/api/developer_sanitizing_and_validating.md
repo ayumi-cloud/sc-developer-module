@@ -14,6 +14,8 @@ For larger more complex sanitization and validation methods third-party librarie
  - [DOMPurify](https://github.com/cure53/DOMPurify) - a DOM-only, super-fast, uber-tolerant XSS sanitizer for `HTML`, `MathML` and `SVG`.
  - [JSON5](https://github.com/json5/json5) - a superset of `JSON` which allows comments, trailing commas, single-quoted strings and more. Including a parser to allow encoding and decoding JSON-Object strings into JSON objects and vice versa.
 - [Laravel (Validation)](https://laravel.com/docs/master/validation) - laravel includes a wide variety of convenient validation rules that you may apply to data, even providing the ability to validate if values are unique in a given database table.
+- [ImageMagick](https://github.com/ImageMagick/ImageMagick) - it can read and write images in a variety of formats (over 200) including PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG.
+
 
 === TO DO ===
 
@@ -34,6 +36,8 @@ JSON | JSON5 | Parser
 PHP | Laravel | Validation
 MathML | DOMPurify | Sanitization
 SVG | DOMPurify | Sanitization
+
+
 
 === TO DO ===
 
