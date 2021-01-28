@@ -12,16 +12,29 @@ For larger more complex sanitization and validation methods third-party librarie
 
  - [HTML Purifier](http://htmlpurifier.org/) - a `HTML` filter that guards against XSS and ensures standards-compliant output.
  - [DOMPurify](https://github.com/cure53/DOMPurify) - a DOM-only, super-fast, uber-tolerant XSS sanitizer for `HTML`, `MathML` and `SVG`.
- - [JSON5](https://github.com/json5/json5) - a superset of JSON which allows comments, trailing commas, single-quoted strings and more. Including a parser to allow encoding and decoding JSON-Object strings into JSON objects and vice versa.
+ - [JSON5](https://github.com/json5/json5) - a superset of `JSON` which allows comments, trailing commas, single-quoted strings and more. Including a parser to allow encoding and decoding JSON-Object strings into JSON objects and vice versa.
 
 === TO DO ===
+
+- `JS` - 
 
 - `YAML`
 - `XML`
 - `Twig`
 - `CSS`
 
+Below shows which library is being used to clean each coding language:
+
+x
+
 Invalid sanitization and validation methods are sent to the error module for the developer to view the stack trace. Also the data is sent to the analytics section for full chart analysis.
+
+### API's
+
+- [HTML Sanitizer API](https://wicg.github.io/sanitizer-api/)
+- [Trusted Types API](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
+
+Some libraries already generate Trusted Types that you can pass to the sink functions. For example, DOMPurify supports Trusted Types and will return sanitized HTML wrapped in a `TrustedHTML` object such that the browser does not generate a violation.
 
 ### Validating and Sanitizing API
 
