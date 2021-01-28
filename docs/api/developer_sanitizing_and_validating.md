@@ -30,6 +30,8 @@ HTML | HTML Purifier | Sanitization
 Javascript | DOMPurify | Sanitization
 JSON | JSON5 | Parser
 PHP | Laravel | Validation
+MathML | DOMPurify | Sanitization
+SVG | DOMPurify | Sanitization
 
 === TO DO ===
 
