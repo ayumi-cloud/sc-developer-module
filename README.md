@@ -105,11 +105,12 @@ If you use this developer module for your research, then kindly cite it. Click t
 
 Below are some of the API's the developer module uses (this is not a complete list):
 
-- [Trusted Types](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
 - [Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
 - [Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only)
 - [CSP: report-to](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to)
 - [CSP: trusted-types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types)
+- [HTML Sanitizer API](https://wicg.github.io/sanitizer-api/)
+- [Trusted Types](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
 
 === TO DO ===
 
