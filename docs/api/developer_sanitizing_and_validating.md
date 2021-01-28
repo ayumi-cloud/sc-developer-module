@@ -12,10 +12,18 @@ For larger more complex sanitization and validation methods third-party librarie
 
  - [HTML Purifier](http://htmlpurifier.org/) - a `HTML` filter that guards against XSS and ensures standards-compliant output.
  - [DOMPurify](https://github.com/cure53/DOMPurify) - a DOM-only, super-fast, uber-tolerant XSS sanitizer for `HTML`, `MathML` and `SVG`.
- 
- 
+ - [JSON5](https://github.com/json5/json5) - a superset of JSON which allows comments, trailing commas, single-quoted strings and more. Including a parser to allow encoding and decoding JSON-Object strings into JSON objects and vice versa.
+
+=== TO DO ===
+
+- `YAML`
+- `XML`
+- `Twig`
+- `CSS`
 
 Invalid sanitization and validation methods are sent to the error module for the developer to view the stack trace. Also the data is sent to the analytics section for full chart analysis.
+
+### Validating and Sanitizing API
 
 x
 
