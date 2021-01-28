@@ -68,7 +68,14 @@ cleanIp | Sanitizing ipv4 and/or ipv6 addresses.
 cleanIpApache | Sanitizing ipv4 and/or ipv6 addresses for Apache.
 cleanIpv4 | Sanitizing ipv4 addresses only.
 cleanIpv6 | Sanitizing ipv6 addresses only.
+cleanString | Sanitizing strings.
+cleanUserAgent | Sanitizing user agents.
 
+cleanNormalize | x
+
+cleanEmail | x
+
+cleanArray | x
 
 ..
 
