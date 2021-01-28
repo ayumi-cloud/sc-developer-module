@@ -24,7 +24,7 @@ For larger more complex sanitization and validation methods third-party librarie
 
 - Image codecs
 
-Below shows which library is being used to clean each coding language:
+Below shows which libraries are being used to clean each coding language:
 
 Programming language | Third party library | Description
 ---|---|---
