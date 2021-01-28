@@ -75,7 +75,14 @@ cleanNormalize | x
 
 cleanEmail | x
 
+cleanMinMaxRange | x
+
+cleanDate | x
+
+cleanDateRange | x
+
 cleanArray | x
+
 cleanObject | x
 
 
