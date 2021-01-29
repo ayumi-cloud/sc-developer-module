@@ -55,6 +55,8 @@ Some libraries already generate Trusted Types that you can pass to the sink func
 
 ### Validating and Sanitizing API
 
+To run a validation command use Laravel's `Validator` and to run a sanitization command use Summer CMS's `Sanitize`, for example `Sanitize::cleanNumber();`.
+
 Value | Description
 ---|---
 cleanNumber | Sanitizing int and float numbers.
