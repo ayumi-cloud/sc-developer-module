@@ -81,7 +81,11 @@ cleanMinMaxRange | x
 
 cleanDate | x
 
+cleanDateTime | x
+
 cleanDateRange | x
+
+cleanDateTimeRange | x
 
 cleanArray | x
 
