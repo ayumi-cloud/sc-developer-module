@@ -135,6 +135,7 @@ Purifier::clean('This is my H1 title', 'titles', function (HTMLPurifier_Config $
     $uri = $config->getDefinition('URI');
     $uri->addFilter(new HTMLPurifier_URIFilter_NameOfFilter(), $config);
 });
+```
 
 ### Javascript .. etc.
 
