@@ -72,8 +72,10 @@ cleanIpv4 | Sanitizing ipv4 addresses only.
 cleanIpv6 | Sanitizing ipv6 addresses only.
 cleanString | Sanitizing strings.
 cleanUserAgent | Sanitizing user agents.
+cleanNormalize | Normalize a string.
 
-cleanNormalize | x
+
+cleanUrlConvertUri | x
 
 cleanEmail | x
 
