@@ -77,6 +77,8 @@ cleanNormalize | Normalize a string.
 
 cleanUrlConvertUri | x
 
+cleanUrlConvertHost | x
+
 cleanEmail | x
 
 cleanMinMaxRange | x
