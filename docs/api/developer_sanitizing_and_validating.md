@@ -18,6 +18,7 @@ For larger more complex sanitization and validation methods third-party librarie
 - [ImageMagick](https://github.com/ImageMagick/ImageMagick) - it can read and write images in a variety of formats (over 200) including PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG.
 - [libavif](https://github.com/AOMediaCodec/libavif) - is a portable C implementation of the AV1 Image File Format. It is a work-in-progress, but can already encode and decode all AOM supported YUV formats and bit depths (with alpha).
 
+https://symfony.com/doc/current/validation.html
 
 === TO DO ===
 
