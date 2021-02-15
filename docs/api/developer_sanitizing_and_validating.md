@@ -62,8 +62,9 @@ Value | Description
 ---|---
 cleanNumber | Sanitizing int and float numbers.
 cleanUrl | Sanitizing full url's (can include: scheme, host, port, user, pass, path, query, fragment).
-cleanUri | Sanitizing full uri's (can include: paths, fragment, query).
-cleanHost | Sanitizing url host only (can include: subdomains).
+cleanUrlConvertUri | Sanitizing full uri's (can include: paths, fragment, query).
+cleanUrlConvertHost | Sanitizing url host only (can include: subdomains).
+cleanUrlConvertScheme | Sanitizing url scheme only.
 cleanDomain | Sanitizing url domain (can include: scheme, host, port, user, pass).
 cleanBoolean | Sanitizing boolean.
 cleanJson | Sanitizing, parser decoding and encoding.
@@ -74,19 +75,13 @@ cleanIpv6 | Sanitizing ipv6 addresses only.
 cleanString | Sanitizing strings.
 cleanUserAgent | Sanitizing user agents.
 cleanNormalize | Normalize a string.
+cleanDateTime | Sanitizing Date or Date and Time.
 
 
-cleanUrlConvertUri | x
-
-cleanUrlConvertHost | x
 
 cleanEmail | x
 
 cleanMinMaxRange | x
-
-cleanDate | x
-
-cleanDateTime | x
 
 cleanDateRange | x
 
