@@ -96,7 +96,7 @@ The developer module has also been optimized to work with twig `2.x` and `3.x` v
 ## Citation 📚
 
 <a href="https://zenodo.org/">
-  <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
+  <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
 </a>
 
 If you use this developer module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this developer module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
@@ -275,7 +275,7 @@ This developer module uses some PSR standards to be the most interoperable possi
 
 We also suggest using Cross-browser testing provided by BrowserStack (*) where a real-browser can't be used in-house.
 
-<p align="center"><img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
 
 ## PHP Coding Standards Fixer ⭕
 
