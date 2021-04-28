@@ -22,6 +22,8 @@
 - [Transparency](#transparency-)
 - [Introduction](#intro-)
 - [Goals](#goals-soccer)
+- [Privacy as Default](#privacy-as-default-)
+  - [FLoC](#floc-)
 - [Vanilla Code](#vanilla-code-)
 - [Naming Prefix](#naming-prefix-%EF%B8%8F)
 - [Requirements](#requirements-)
@@ -72,6 +74,21 @@ This module aims to identify the following details:
 (*) Note: The list above is not an extensive and complete list, it is intended to give a broad overview.
 
 <p align="center"><img src="https://github.com/summer-cms/sc-developer-module/blob/main/src/assets/images/vanilla.jpg"></p>
+
+
+
+
+
+## Privacy as Default 👀
+
+### FLoC 🔔
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/floc.png"></p>
+
+FLoC enables ad selection without sharing the browsing behaviour of individual users. A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. Summer CMS puts it's users privacy first and so sets the `opt-out` as the default, webmasters and users can then `opt-in`. This also passes GDPR/ePrivacy laws.
+
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/floc.png"></p>
+
 
 ## Vanilla Code 🍦
 
