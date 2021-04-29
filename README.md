@@ -117,7 +117,7 @@ Summer CMS has a dedicated legal module to easily complie with current laws and 
 
 ### The Second Payment Services Directive (PSD2) 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/psd2.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/psd2.jpg"></p>
 
 The Payment Services Directive Two (PSD2) is a piece of legislation designed to force providers of payment services to improve customer authentication processes and to also bring in new regulation around third-party involvement.
 
