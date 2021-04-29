@@ -79,13 +79,13 @@ The Summer CMS takes privacy and user data seriously, we strongly believe in put
 
 ### General Data Protection Regulation (GDPR) 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/gdpr.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/gdpr.jpg"></p>
 
 The General Data Protection Regulation (GDPR) is one of the most wide-ranging pieces of legislation passed by the EU in recent memory. It was introduced to standardise data protection law across the single market and give people in a growing digital economy greater control over how their personal information is used. Summer CMS has a dedicated legal module to easily complie with current laws and sets the `opt-out` as the default and allows webmasters and users can then `opt-in`.
 
 ### ePrivacy Regulation 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/eprivacy.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/eprivacy.jpg"></p>
 
 The ePrivacy Regulation will complement the GDPR’s general rules on personal data processing by providing specific rules governing electronic communications.
 
@@ -97,7 +97,7 @@ Summer CMS has a dedicated legal module to easily complie with current laws and 
 
 ### California Consumer Privacy Act (CCPA) 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/ccpa.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/ccpa.jpg"></p>
 
 The California Consumer Privacy Act (CCPA) is a law that allows any California consumer to demand to see all the information a company has saved on them, as well as a full list of all the third parties that data is shared with.
 
@@ -109,7 +109,7 @@ Summer CMS has a dedicated legal module to easily complie with current laws and 
 
 ### Strong Customer Authentication (SCA) 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/sca.png"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/sca.png"></p>
 
 Strong Customer Authentication (SCA) is a new European regulatory requirement to reduce fraud and make online payments more secure. To accept payments and meet SCA requirements, you need to build additional authentication into your checkout flow.
 
@@ -125,7 +125,7 @@ Summer CMS has a dedicated legal module to easily complie with current laws and 
 
 ### FLoC 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/src/assets/images/floc.png"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/main/src/assets/images/floc.png"></p>
 
 FLoC enables ad selection without sharing the browsing behaviour of individual users. A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. Summer CMS puts it's users privacy first and so sets the `opt-out` as the default, webmasters and users can then `opt-in`. This also passes GDPR/ePrivacy laws.
 
