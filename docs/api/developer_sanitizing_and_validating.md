@@ -62,6 +62,7 @@ Value | Description
 ---|---
 cleanNumber | Sanitizing int and float numbers.
 cleanUrl | Sanitizing full url's (can include: scheme, host, port, user, pass, path, query, fragment).
+cleanPath | Sanitizing uri path only.
 cleanUrlConvertUri | Sanitizing full uri's (can include: paths, fragment, query).
 cleanUrlConvertHost | Sanitizing url host only (can include: subdomains).
 cleanUrlConvertScheme | Sanitizing url scheme only.
