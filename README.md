@@ -183,7 +183,7 @@ The [framework module](https://github.com/summer-cms/sc-framework-module) adds b
 
 ## Requirements 🚩
 
-This module has been optimized to work with php `7.4.x` and `8.x` versions - we recommend upgrading from any lower php version.
+This module has been optimized to work with php `7.4.x` and `8.x.x` versions - we recommend upgrading from any lower php version.
 
 The developer module has also been optimized to work with twig `2.x` and `3.x` versions. No support for twig version one!
 
