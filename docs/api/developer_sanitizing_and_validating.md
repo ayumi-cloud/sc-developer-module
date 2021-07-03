@@ -60,6 +60,16 @@ To run a validation command use Laravel's `Validator` and to run a sanitization 
 
 Value | Description
 ---|---
+removeNullCharacters | Remove null characters.
+
+
+
+
+
+
+
+
+
 cleanNumber | Sanitizing int and float numbers.
 cleanUrl | Sanitizing full url's (can include: scheme, host, port, user, pass, path, query, fragment).
 cleanPath | Sanitizing uri path only (excluding query and fragment).
