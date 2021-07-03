@@ -61,7 +61,7 @@ To run a validation command use Laravel's `Validator` and to run a sanitization 
 Value | Description
 ---|---
 removeNullCharacters | Remove null characters.
-
+validateStandardCharacterEntities | Validate Standard Character Entities.
 
 
 
