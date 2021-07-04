@@ -46,6 +46,7 @@
     - [Developer Core Version](#developer-core-version)
 - [Summer CMS Developer API's](#summer-cms-developer-apis--)
 - [Issues](#issues-)
+- [FAQ](#faq-)
 - [Troubleshooting](#troubleshooting-)
     - [Something](#something-)
 - [Reporting a Vulnerability](#reporting-a-vulnerability-)
