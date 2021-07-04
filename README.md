@@ -229,72 +229,33 @@ The developer module has been optimized to work with CSP 3 and allow backwards c
 
     [Exploring a back/forward cache for Chrome](https://developers.google.com/web/updates/2019/02/back-forward-cache)
 
-
-
-
-
-
-----------------------
-
-
-
-
 ## Installation ❤️
 
-Users can setup the security modules security level during installation of Summer CMS, there are two main security levels to choose from during installation:
+All the developer settings can be configured at any time in the developer module under the `Configuartion` section.
 
-1. **Normal security level** - this turns off many security settings and allows users to turn on various security settings at a later date (useful for `localhost` and `developer` websites).
+## Developer Component Version Files 💾
 
-2. **Enhanced security level** - this turns on all the security settings (useful for `live` and `production` websites).
+### Code Editor Version
 
-All the security settings can be configured at any time in the security module under the `Configuartion` section.
+Last Updated: 17th June 2021 **(Version: 0.25.2)**
 
-## Firewall Definition Files 💾
+### Code Editor Themes Version
 
-### Location Definitions
+Last Updated: 14th July 2020 **(Version: 1.0.1)**
 
-Last Updated: 22nd June 2021
+### Developer Core Version
 
-### Parser Definitions
-
-Last Updated: 2nd July 2021 **(Version: 3.1.2)**
-
-### Firewall Definitions
-
-Last Updated: 6th May 2021
+Last Updated: 14th Jan 2021 **(Version: 1.0.0)**
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
-  
-## Summer CMS Firewall API's 🔥
 
-The security module in Summer CMS comes with lots of dedicated API's to help developers:
+## Summer CMS Developer API's 🔥
 
-- [Firewall APP Types API](https://github.com/summercms/sc-security-module/blob/master/docs/api/firewall_app_types.md)
-
-
-(*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new firewall feature open an issue.
-
-The security module also uses with the following api's from other Summer CMS modules:
+The developer module in Summer CMS comes with lots of dedicated API's to help developers:
 
 - [Developer Validating and Sanitizing API](https://github.com/summercms/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
 
-(*) Note: As time goes on more modules and api's will be added to the list to expand more features to the security module.
-
-- [Installation](#installation-%EF%B8%8F)
-- [Developer Component Version Files](#developer-component-version-files-)
-    - [Code Editor Version](#code-editor-version)
-    - [Code Editor Themes Version](#code-editor-themes-version)
-    - [Developer Core Version](#developer-core-version)
-- [Summer CMS Developer API's](#summercms-developer-apis-)
-
-
-
-----------------------
-
-
-
-
-
+(*) Note: The developer is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new developer feature open an issue.
 
 ## Issues 🔨
 
