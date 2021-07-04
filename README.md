@@ -1,9 +1,9 @@
 <h1 align="center">Summer CMS - Developer Module</h1>
 <p align="center">(Being heavily coded in private repos at the moment - we look forward to publity releasing a candidate release)</p>
   
-<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/code.svg"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/code.svg"> <img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
   
-<p align="center"><img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/cover.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/cover.jpg"></p>
 
 
 ---------
@@ -15,7 +15,7 @@
 
 ## Summer CMS Modules :eyes:
 
-**Note: This is the developer module for Summer CMS, see here for the full list of [Summer CMS Modules](https://github.com/summer-cms/sc-main/blob/master/README.md#summer-cms-modules-).**
+**Note: This is the developer module for Summer CMS, see here for the full list of [Summer CMS Modules](https://github.com/summercms/sc-main/blob/master/README.md#summercms-modules-).**
 
 ## Table of Contents 📑
 
@@ -44,7 +44,7 @@
     - [Code Editor Version](#code-editor-version)
     - [Code Editor Themes Version](#code-editor-themes-version)
     - [Developer Core Version](#developer-core-version)
-- [Summer CMS Developer API's](#summer-cms-developer-apis-)
+- [Summer CMS Developer API's](#summercms-developer-apis-)
 - [Issues](#issues-)
 - [Troubleshooting](#troubleshooting-)
     - [Something](#something-)
@@ -175,13 +175,13 @@ For example, suppose that owner.example owns a First-Party Set containing {membe
 
 ## Vanilla Code 🍦
 
-<p align="center"><img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/vanilla.jpg"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/vanilla.jpg"></p>
 
 Vanilla often refers to **pure** or **plain**. So in terms of programming languages, it means either without the use of **3rd party libraries** or without the use of **frameworks**.
 
 The `core` files and `modules` in Summer CMS use `Laravel`, an open-source PHP web framework. However, all the styling, javascript and data interchange formats have been written using `vanilla` code. This makes upgrading the code **quick** and **simple** without the constraints of relying solely on a single library or framework! Plus reducing the code size and optimizing the performance by reducing the overheads of loading third-party libraries (such as jQuery as an example). Summer CMS treats all third-party libraries and frameworks as optional extras and developers are welcome to use any of them to enhance their websites and applications using Summer CMS.
 
-The [framework module](https://github.com/summer-cms/sc-framework-module) adds bridges and interconnects different frameworks to Summer CMS with ease to give a customized experience for each framework!
+The [framework module](https://github.com/summercms/sc-framework-module) adds bridges and interconnects different frameworks to Summer CMS with ease to give a customized experience for each framework!
 
 ## Naming Prefix ✒️
 
@@ -193,7 +193,7 @@ This module has been optimized to work with php `7.4.x` and `8.x.x` versions - w
 
 The developer module has also been optimized to work with twig `2.x` and `3.x` versions. No support for twig version one!
 
-**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/summer-cms/sc-main/blob/master/README.md#requirements-).**
+**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/summercms/sc-main/blob/master/README.md#requirements-).**
 
 ## Citation 📚
 
@@ -234,21 +234,62 @@ The developer module has been optimized to work with CSP 3 and allow backwards c
 
 
 
+----------------------
 
-Installation
-Firewall Definition Files
-Location Definitions
-Parser Definitions
-Firewall Definitions
-Summer CMS Firewall API's
+
+
+
+## Installation ❤️
+
+Users can setup the security modules security level during installation of Summer CMS, there are two main security levels to choose from during installation:
+
+1. **Normal security level** - this turns off many security settings and allows users to turn on various security settings at a later date (useful for `localhost` and `developer` websites).
+
+2. **Enhanced security level** - this turns on all the security settings (useful for `live` and `production` websites).
+
+All the security settings can be configured at any time in the security module under the `Configuartion` section.
+
+## Firewall Definition Files 💾
+
+### Location Definitions
+
+Last Updated: 22nd June 2021
+
+### Parser Definitions
+
+Last Updated: 2nd July 2021 **(Version: 3.1.2)**
+
+### Firewall Definitions
+
+Last Updated: 6th May 2021
+
+(*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
+  
+## Summer CMS Firewall API's 🔥
+
+The security module in Summer CMS comes with lots of dedicated API's to help developers:
+
+- [Firewall APP Types API](https://github.com/summercms/sc-security-module/blob/master/docs/api/firewall_app_types.md)
+
+
+(*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new firewall feature open an issue.
+
+The security module also uses with the following api's from other Summer CMS modules:
+
+- [Developer Validating and Sanitizing API](https://github.com/summercms/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
+
+(*) Note: As time goes on more modules and api's will be added to the list to expand more features to the security module.
 
 - [Installation](#installation-%EF%B8%8F)
 - [Developer Component Version Files](#developer-component-version-files-)
     - [Code Editor Version](#code-editor-version)
     - [Code Editor Themes Version](#code-editor-themes-version)
     - [Developer Core Version](#developer-core-version)
-- [Summer CMS Developer API's](#summer-cms-developer-apis-)
+- [Summer CMS Developer API's](#summercms-developer-apis-)
 
+
+
+----------------------
 
 
 
@@ -257,7 +298,7 @@ Summer CMS Firewall API's
 
 ## Issues 🔨
 
-<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/summer-cms/sc-developer-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/summer-cms/sc-developer-module">
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/summercms/sc-developer-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/summercms/sc-developer-module">
 
 If you face any issue, you can create a new issue in the `Issues` tab and we will be glad to help you out!
 
@@ -276,7 +317,7 @@ We welcome bug reports, false positive alert reports, evasions, usability issues
 
 Please include your installed version and the relevant portions of your audit log.
 
-False negative or common bypasses should [create an issue](https://github.com/summer-cms/sc-developer-module/issues/new) so they can be addressed.
+False negative or common bypasses should [create an issue](https://github.com/summercms/sc-developer-module/issues/new) so they can be addressed.
 
 Do this before submitting a vulnerability:
 
@@ -290,11 +331,11 @@ If in doubt, feel free to reach out to us!
 
 ## Code of Conduct 💯
 
-In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/summer-cms/sc-developer-module/blob/master/CODE_OF_CONDUCT.md).
+In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/summercms/sc-developer-module/blob/master/CODE_OF_CONDUCT.md).
 
 ## For Future 🔮
 
-Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/summer-cms/sc-developer-module/projects) for a list of things to be done.
+Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/summercms/sc-developer-module/projects) for a list of things to be done.
 
 ## Browser Support ✅
 
@@ -303,43 +344,43 @@ The developer module has been tested in the following browsers:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/chrome_48x48.png" alt="Chrome"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/chrome_48x48.png" alt="Chrome"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/firefox_48x48.png" alt="Firefox"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/firefox_48x48.png" alt="Firefox"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/safari_48x48.png" alt="Safari"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/safari_48x48.png" alt="Safari"><br>
       9+
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/edge_old_48x48.png" alt="Edge Legacy"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/edge_old_48x48.png" alt="Edge Legacy"><br>
       ✖ (1)
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/edge_48x48.png" alt="Edge"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/edge_48x48.png" alt="Edge"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/internet-explorer_9-11_48x48.png" alt="Internet Explorer"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/internet-explorer_9-11_48x48.png" alt="Internet Explorer"><br>
       ✖ (2)
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/opera_48x48.png" alt="Opera"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/opera_48x48.png" alt="Opera"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/samsung-internet_48x48.png" alt="Samsung"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/samsung-internet_48x48.png" alt="Samsung"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/uc_48x48.png" alt="UC"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/uc_48x48.png" alt="UC"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/browser/vivaldi_48x48.png" alt="Vivaldi"><br>
+      <img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/browser/vivaldi_48x48.png" alt="Vivaldi"><br>
       3+
     </td>
   </tr>
@@ -351,7 +392,7 @@ The developer module has been tested in the following browsers:
 
 (2) Internet Explorer version 1-11, Summer CMS will not support due to only supporting `Evergreen` brwosers.
 
-For a full list of browser support with Summer CMS, see here: [Browser Support](https://github.com/summer-cms/sc-main/blob/master/docs/browser_support.md).
+For a full list of browser support with Summer CMS, see here: [Browser Support](https://github.com/summercms/sc-main/blob/master/docs/browser_support.md).
 
 ## Changelog 🏆
 
@@ -364,7 +405,7 @@ We are actively inviting new contributors! To start, please read the [contributi
 This project is only possible thanks to the work of many dedicated volunteers. Everyone is encouraged to help in ways large and small. Here are a few ways you can help:
 
 - Read the current content and help us fix any spelling mistakes or grammatical errors.
-- Choose an existing [issue](https://github.com/summer-cms/sc-developer-module/issues) on GitHub and submit a pull request to fix it.
+- Choose an existing [issue](https://github.com/summercms/sc-developer-module/issues) on GitHub and submit a pull request to fix it.
 - Open a new issue to report an opportunity for improvement.
 
 If you find any bugs in the code or have any improvements in mind then feel free to generate a pull request.
@@ -489,4 +530,4 @@ Everyone is permitted to copy and distribute copies of Summer CMS, but changing 
 
 [⬆ back to top](#table-of-contents-)
 
-<p align="center"><img src="https://github.com/summer-cms/sc-developer-module/blob/master/assets/images/luv.png"></p>
+<p align="center"><img src="https://github.com/summercms/sc-developer-module/blob/master/assets/images/luv.png"></p>
