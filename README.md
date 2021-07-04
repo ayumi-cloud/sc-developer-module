@@ -263,12 +263,33 @@ The developer module in Summer CMS comes with lots of dedicated API's to help de
 
 If you face any issue, you can create a new issue in the `Issues` tab and we will be glad to help you out!
 
+## FAQ ❓
+
+The Code Editor is generated straight from VS Code's sources with some shims around services the code needs to make it run in a web browser outside of its home.
+
+❓ **What is the relationship between VS Code's version and the Code Editor's version?**
+
+None. The Code Editor is a library and it reflects directly the source code.
+
+❓ **I've written an extension for VS Code, will it work on the Code Editor in a browser?**
+
+No.
+
+> Note: If the extension is fully based on the [LSP](https://microsoft.github.io/language-server-protocol/) and if the language server is authored in JavaScript, then it would be possible.
+
+❓ **Why all these web workers and why should I care?**
+
+Language services create web workers to compute heavy stuff outside of the UI thread. They cost hardly anything in terms of resource overhead and you shouldn't worry too much about them, as long as you get them to work (see above the cross-domain case).
+
+❓ **What about IE 11 support?**
+
+The Code Editor no longer supports IE 11. The last version that was tested on IE 11 was `0.18.1`.
+
 ## Troubleshooting 👿
 
-### Something 💊
+### I see the warning "Could not create web worker", what should I do? 💊
 
-=== TO DO ===
-
+HTML5 doesn't allow pages loaded on `file://` to create web workers. Please load the editor with a web server on `http://` or `https://` schemes.
 
 ## Reporting a Vulnerability 💥
 
