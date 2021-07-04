@@ -39,6 +39,12 @@
 - [API's](#apis-gem)
 - [Deprecations and removals](#deprecations-and-removals-)
 - [Enhancements](#enhancements-)
+- [Installation](#installation-%EF%B8%8F)
+- [Developer Component Version Files](#developer-component-version-files-)
+    - [Code Editor Version](#code-editor-version)
+    - [Code Editor Themes Version](#code-editor-themes-version)
+    - [Developer Core Version](#developer-core-version)
+- [Summer CMS Developer API's](#summer-cms-developer-apis-)
 - [Issues](#issues-)
 - [Troubleshooting](#troubleshooting-)
     - [Something](#something-)
@@ -222,6 +228,32 @@ The developer module has been optimized to work with CSP 3 and allow backwards c
 - The developer module has been optimized to work a long side modern browsers that support the **back/forward cache** (bfcache) api. To learn more about bfcache, see these resources:
 
     [Exploring a back/forward cache for Chrome](https://developers.google.com/web/updates/2019/02/back-forward-cache)
+
+
+
+
+
+
+
+Installation
+Firewall Definition Files
+Location Definitions
+Parser Definitions
+Firewall Definitions
+Summer CMS Firewall API's
+
+- [Installation](#installation-%EF%B8%8F)
+- [Developer Component Version Files](#developer-component-version-files-)
+    - [Code Editor Version](#code-editor-version)
+    - [Code Editor Themes Version](#code-editor-themes-version)
+    - [Developer Core Version](#developer-core-version)
+- [Summer CMS Developer API's](#summer-cms-developer-apis-)
+
+
+
+
+
+
 
 ## Issues 🔨
 
