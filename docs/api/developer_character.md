@@ -35,4 +35,4 @@ strposa |
 validateStandardCharacterEntities | 
 validateUTF16TwoByteEncoding | 
 
-(*) Subject to adding more api properties (character) from the creation of new developer features.
+(*) Subject to adding more api properties from the creation of new developer features.
