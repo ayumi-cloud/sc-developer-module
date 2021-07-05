@@ -17,6 +17,7 @@ deleteTrailing | string | Delete trailing characters.
 endsWith | boolean | Determine if a given string ends with a given value.
 ensureLeading | string | Ensure that a string is starts with a special string.
 ensureTrailing | string | Ensure that a string is ends with a special string.
+fullStringClean | string | Clean strings against XSS attacks.
 healNaughtyHTMLElements | string | Heal naughty html elements.
 healNaughtyScriptingElements | string | Heal naughty scripting elements.
 is | boolean | Determine if a given string matches a given pattern.
@@ -37,12 +38,3 @@ validateStandardCharacterEntities | string | Validate standard character entitie
 validateUTF16TwoByteEncoding | string | Validate utf-16 two byte encoding.
 
 (*) Subject to adding more api properties from the creation of new developer features.
-
-xxx.
-
-Value | Return | Description
----|---|---
-x | x | x.
-
-(*) Subject to adding more api properties from the creation of new developer features.
-
