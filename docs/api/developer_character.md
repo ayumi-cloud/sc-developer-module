@@ -30,6 +30,7 @@ removeJavaScriptHardRedirects |
 removeNullCharacters | 
 startsWith | 
 strangeThingsAreSubmitted | 
+strposa | 
 validateStandardCharacterEntities | 
 validateUTF16TwoByteEncoding | 
 
