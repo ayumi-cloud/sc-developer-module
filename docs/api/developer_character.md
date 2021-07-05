@@ -21,6 +21,7 @@ healNaughtyScriptingElements |
 is | 
 isEvilPath | 
 isSerialized | 
+isString | 
 makesPhpTagsSafe | 
 pregQuote | 
 randomString | 
