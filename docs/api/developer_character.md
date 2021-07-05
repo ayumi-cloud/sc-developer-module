@@ -2,10 +2,10 @@
 
 ### Character
 
-This api is for handling and cleaning Character and Strings.
+This api is for handling and cleaning Character, Strings and Arrays.
 
-Value | Description
----|---
+Value | Return | Description
+---|---|---
 checkUtf8Encoding | x.
 compactAnyExplodedWords | 
 contains | 
