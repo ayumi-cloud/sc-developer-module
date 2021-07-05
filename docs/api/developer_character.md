@@ -6,6 +6,7 @@ This api is for handling and cleaning Character, Strings and Arrays.
 
 Value | Return | Description
 ---|---|---
+aggressiveClean | string | An aggressive cleaning - all tags and stuff inside will be removed.
 checkUtf8Encoding | boolean | Check for invalid UTF8 encoding and invalid byte.
 compactAnyExplodedWords | string | Compact any exploded words.
 contains | boolean | Determine if a given string contains a given sub-string.
