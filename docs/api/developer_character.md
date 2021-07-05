@@ -1,4 +1,4 @@
-## Summer CMS Character API
+## Summer CMS Developer Character API
 
 ### Character
 
