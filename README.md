@@ -254,6 +254,10 @@ Last Updated: 14th Jan 2021 **(Version: 1.0.0)**
 
 The developer module in Summer CMS comes with lots of dedicated API's to help developers:
 
+- [Summer CMS Developer Character API](https://github.com/summercms/sc-developer-module/blob/master/docs/api/developer_character.md)
+
+=== TO DO === (cleanup below api docs)
+
 - [Developer Validating and Sanitizing API](https://github.com/summercms/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
 
 (*) Note: The developer is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new developer feature open an issue.
