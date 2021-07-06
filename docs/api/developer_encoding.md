@@ -2,7 +2,7 @@
 
 ### Encoding
 
-This api is for converting and cleaning Latin1 (ISO 8859-1), Windows-1252 and UTF8.
+This api is for converting and cleaning`Latin1` (`ISO 8859-1`), `Windows-1252` or `UTF8`.
 
 If you apply the PHP function `utf8_encode()` to an already-UTF8 string it will return a garbled UTF8 string, this api addresses that issue.
 
