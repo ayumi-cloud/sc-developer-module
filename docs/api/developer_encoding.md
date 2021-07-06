@@ -1,6 +1,6 @@
 ## Summer CMS Developer Encoding API
 
-### Encoding
+### @package Developer/Encoding
 
 This api is for converting and cleaning`Latin1` (`ISO 8859-1`), `Windows-1252` or `UTF8`.
 
