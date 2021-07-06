@@ -36,7 +36,7 @@
 - [Requirements](#requirements-)
 - [Big data](#big-data-)
 - [Citation](#citation-)
-- [API's](#apis-gem)
+- [API's](#apis-)
 - [Deprecations and removals](#deprecations-and-removals-)
 - [Enhancements](#enhancements-)
 - [Installation](#installation-%EF%B8%8F)
