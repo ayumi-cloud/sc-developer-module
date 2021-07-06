@@ -14,18 +14,26 @@ This api is a **modified version** of the work done by [forceutf8](https://githu
 
 #### Examples
 
-xxx
+```php
+$utf8_string = Encoding::fixUTF8($garbled_utf8_string);
+$utf8_string = Encoding::toUTF8($utf8_or_latin1_or_mixed_string);
+$latin1_string = Encoding::toLatin1($utf8_or_latin1_or_mixed_string);
+```
+
+By default, `Encoding::fixUTF8` will use the `Encoding::WITHOUT_ICONV` flag, signalling that iconv should not be used to fix garbled UTF8 strings.
+
+This api also provides options for iconv processing, such as `Encoding::ICONV_TRANSLIT` and `Encoding::ICONV_IGNORE` to enable these flags when the iconv class is utilized. The functionality of such flags are documented in the [PHP iconv documentation](http://php.net/manual/en/function.iconv.php).
+
+```php
+Encoding::fixUTF8($str); // Will break U+2014
+Encoding::fixUTF8($str, Encoding::ICONV_IGNORE); // Will preserve U+2014
+Encoding::fixUTF8($str, Encoding::ICONV_TRANSLIT); // Will preserve U+2014
+```
 
 Value | Return | Description
 ---|---|---
-fixUTF8 | string | L
-toISO8859 | string | L
-toLatin1 | string | L
+fixUTF8 | string | Will fix the double (or multiple) encoded UTF8 string that look garbled.
+toLatin1 | string | Leaves Latin1 characters alone, while converting almost all non-Latin1 to Latin1.
 toUTF8 | string | Leaves UTF8 characters alone, while converting almost all non-UTF8 to UTF8.
-toWin1252 | string | L
-
-
-
-
 
 (*) Subject to adding more api properties from the creation of new developer features.
