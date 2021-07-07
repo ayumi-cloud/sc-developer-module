@@ -8,9 +8,15 @@ In depth information about configuration parameters can be found here: http://ht
 
 [DOMPurify](https://cure53.de/purify) sanitizes HTML and prevents XSS attacks. You can feed DOMPurify with string full of dirty HTML and it will return a string (unless configured otherwise) with clean HTML. DOMPurify will strip out everything that contains dangerous HTML and thereby prevent XSS attacks and other nastiness. It's also damn bloody fast. We use the technologies the browser provides and turn them into an XSS filter. The faster your browser, the faster DOMPurify will be.
 
-JSON5 === TO DO ===
+[JSON5](https://github.com/json5/json5) - a superset of `JSON` which allows comments, trailing commas, single-quoted strings and more. Including a parser to allow encoding and decoding JSON-Object strings into JSON objects and vice versa.
+
+[Laravel (Validation)](https://laravel.com/docs/master/validation) - includes a wide variety of convenient validation rules that you may apply to data, even providing the ability to validate if values are unique in a given database table.
+
+[Symfony (Validation)](https://symfony.com/doc/current/validation.html) - provides a Validator component to handle this for you. This component is based on the JSR303 Bean Validation specification.
 
 [OpenType Sanitizer](https://github.com/khaledhosny/ots) parses and serializes OpenType files (OTF, TTF) and WOFF and WOFF2 font files, validating them and sanitizing them as it goes.
+
+=== TO DO ===
 
 ### API's
 
@@ -41,6 +47,7 @@ Twig | HTML Purifier
 Video | x
 YAML | x
 
+=== TO DO ===
 
 ## Laravel
 
@@ -201,17 +208,4 @@ console.log( DOMPurify.sanitize(dirty) );
 
 xxx
 
-
-
-#### Examples
-
-
-
-
-Value | Return | Description
----|---|---
-fixUTF8 | string | Will fix the double (or multiple) encoded UTF8 string that look garbled.
-toLatin1 | string | Leaves Latin1 characters alone, while converting almost all non-Latin1 to Latin1.
-toUTF8 | string | Leaves UTF8 characters alone, while converting almost all non-UTF8 to UTF8.
-
-(*) Subject to adding more api properties from the creation of new developer features.
+=== TO DO ===
