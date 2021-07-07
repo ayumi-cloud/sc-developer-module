@@ -256,6 +256,8 @@ The developer module in Summer CMS comes with lots of dedicated API's to help de
 
 - [Developer Character API](https://github.com/summercms/sc-developer-module/blob/master/docs/api/developer_character.md)
 - [Developer Encoding API](https://github.com/summercms/sc-developer-module/blob/master/docs/api/developer_encoding.md)
+- [Developer Escaping API](https://github.com/summercms/sc-developer-module/blob/master/docs/api/developer_escaping.md)
+
 
 === TO DO === (cleanup below api docs)
 
