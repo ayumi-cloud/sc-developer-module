@@ -131,26 +131,71 @@ Below are some basic examples how to use the DOMPurify with [JavaScript](https:/
 
 ### Example 1 (basic code version)
 
-```twig
-{% set html = '<script>alert(\'XSS\');</script>123' %}
+```html
+<script type="text/javascript" src="link to the purify.min.js"></script>
+```
 
-{{ purify(html) }}
+Afterwards you can sanitize strings by executing the following code:
+
+```js
+var dirty = '<option><style></option></select><b><img src=xx: onerror=alert(1)></style></option>';
+console.log( DOMPurify.sanitize( dirty ) );
+```
+
+The resulting HTML can be written into a DOM element using `innerHTML` or the DOM using `document.write()`.
+
+Result:
+
+```php
+// Remove the injected code and bad element tags.
+<option></option>
+```
+
+### Example 2 (html only code version)
+
+If you only need HTML, which might be a very common use-case, you can easily set that up with the following example:
+
+```js
+var dirty = '<option><style></option></select><b><img src=xx: onerror=alert(1)></style></option>';
+console.log( DOMPurify.sanitize( dirty , {USE_PROFILES: {html: true}} ) );
 ```
 
 Result:
 
 ```php
-// Removed injected javascript code and added the `<p></p>` tags.
-<p>123</p>
+// Remove the injected code and bad element tags.
+<option></option>
 ```
 
+### Example 3 (config code version)
 
+```js
+var dirty = '<a href="#">abc<b style="color:red">123</b><q class="cite">123</b></a>';
+console.log(
+    DOMPurify.sanitize(dirty, {
+        ALLOWED_TAGS: ["b", "q"],
+        ALLOWED_ATTR: ["style"],
+        KEEP_CONTENT: true,
+    })
+);
+```  
+        
+Result:
 
+```php
+// Outputs the allowed tags and removes ones not listed.
+abc<b style="color:red">123</b><q>123</q>
+```        
+        
+### Example 4 (amd loader version)
 
+If you're using an [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD) module loader like [Require.js](http://requirejs.org/), you can load this script asynchronously as well:
 
+```js
+import DOMPurify from 'dompurify';
 
-
-
+console.log( DOMPurify.sanitize(dirty) );
+```
 
 ## JSON
 
