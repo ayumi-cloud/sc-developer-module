@@ -21,6 +21,9 @@ endsWith | boolean | Determine if a given string ends with a given value.
 ensureLeading | string | Ensure that a string is starts with a special string.
 ensureTrailing | string | Ensure that a string is ends with a special string.
 escapeHtml | string | Escapes HTML and special chars using php's `filter_var`.
+
+filterIf | string | Esc..........
+
 fullStringClean | string | Clean strings against XSS attacks.
 healNaughtyHTMLElements | string | Heal naughty html elements.
 healNaughtyScriptingElements | string | Heal naughty scripting elements.
@@ -39,6 +42,7 @@ removeNonNumeric | string | Removes any non numeric character.
 removeNullCharacters | string | Remove null characters.
 startsWith | boolean | Determine if a given string begins with a given value.
 strangeThingsAreSubmitted | string | Clean strange things that submitted.
+stripTags | string | Strip HTML and PHP tags using php's `strip_tags`.
 strposa | boolean | Checks an array for a match.
 trim | string | Simple PHP `trim()` implementation.
 trimDuplicateSpaces | string | Replaces duplicate spaces with a single space.
