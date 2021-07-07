@@ -10,6 +10,38 @@ In depth information about configuration parameters can be found here: http://ht
 
 JSON5 === TO DO ===
 
+[OpenType Sanitizer](https://github.com/khaledhosny/ots) parses and serializes OpenType files (OTF, TTF) and WOFF and WOFF2 font files, validating them and sanitizing them as it goes.
+
+### API's
+
+Summer CMS also uses the following api's to sanitize data, along with it's own custom components:
+
+- [HTML Sanitizer API](https://wicg.github.io/sanitizer-api/)
+- [Trusted Types API](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
+
+### Recommendations
+
+Below shows which libraries are being used to clean each coding language:
+
+Programming language | Third party library
+---|---
+HTML | HTML Purifier
+Javascript | DOMPurify
+JSON | JSON5
+PHP | HTML Purifier
+Laravel | HTML Purifier
+MathML | DOMPurify
+SVG | DOMPurify
+Fonts | OpenType Sanitizer
+Twig | HTML Purifier
+CSS | x
+YAML | x
+Images | x
+Audio | x
+Video | x
+PDF | x
+
+
 ## Laravel
 
 Below are some basic examples how to use the HTMLPurifier Service Provider with [Laravel](https://laravel.com/) web application framework:
