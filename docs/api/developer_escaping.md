@@ -127,7 +127,29 @@ Result:
 
 ## Javascript
 
-xxx
+Below are some basic examples how to use the DOMPurify with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules):
+
+### Example 1 (basic code version)
+
+```twig
+{% set html = '<script>alert(\'XSS\');</script>123' %}
+
+{{ purify(html) }}
+```
+
+Result:
+
+```php
+// Removed injected javascript code and added the `<p></p>` tags.
+<p>123</p>
+```
+
+
+
+
+
+
+
 
 
 ## JSON
