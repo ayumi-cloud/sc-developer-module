@@ -266,7 +266,7 @@ Then you can load a JSON5 file with a Node.js `require()` statement. For example
 const config = require('./config.json5')
 ```
 
-### Example 1 (basic code version)
+### Example 1 (basic javascript code version)
 
 ```js
 const JSON5 = require('json5');
