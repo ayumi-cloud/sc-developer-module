@@ -277,7 +277,7 @@ or
 
 ```js
 <script src="link to the json5 index.min.js"></script>
-console.log(json5.parse("{ hello: 'world' }"));
+<script>console.log(json5.parse("{ hello: 'world' }"));</script>
 ```
 
 Result:
