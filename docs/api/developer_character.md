@@ -32,6 +32,7 @@ randomString | string | Random string for PHP7 or greater.
 removeDisallowedJavaScriptInLinksOrImgTags | string | Remove disallowed javascript in links or img tags.
 removeJavaScriptEventHandlers | string | Remove javascript event handlers.
 removeJavaScriptHardRedirects | string | Remove javascript hard redirects.
+removeNonNumeric | string | Removes any non numeric character.
 removeNullCharacters | string | Remove null characters.
 startsWith | boolean | Determine if a given string begins with a given value.
 strangeThingsAreSubmitted | string | Clean strange things that submitted.
