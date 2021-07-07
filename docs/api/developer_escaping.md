@@ -206,6 +206,95 @@ console.log( DOMPurify.sanitize(dirty) );
 
 ## JSON
 
+The JSON5 Data Interchange Format (JSON5) is a superset of [JSON](https://tools.ietf.org/html/rfc7159) that aims to alleviate some of the limitations of JSON by expanding its syntax to include some productions from [ECMAScript 5.1](https://www.ecma-international.org/ecma-262/5.1/).
+
+### Example 1 (basic code version)
+
+```js
+const JSON5 = require('json5');
+console.log(json5.parse("{ hello: 'world' }"));
+```
+
+or
+
+```js
+<script src="link to the json5 index.min.js"></script>
+console.log(json5.parse("{ hello: 'world' }"));
+```
+
+Result:
+
+```js
+{ hello: 'world' }
+```
+
+### `JSON5.parse()`
+
+Parses a JSON5 string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.
+
+#### Syntax
+
+```js
+JSON5.parse(text[, reviver])
+```
+
+#### Parameters
+
+- `text`: The string to parse as JSON5.
+- `reviver`: If a function, this prescribes how the value originally produced by   parsing is transformed, before being returned.
+
+#### Return value
+
+The object corresponding to the given JSON5 text.
+
+### `JSON5.stringify()`
+
+Converts a JavaScript value to a JSON5 string, optionally replacing values if a replacer function is specified, or optionally including only the specified properties if a replacer array is specified.
+
+#### Syntax
+
+```js
+JSON5.stringify(value[, replacer[, space]])
+JSON5.stringify(value[, options])
+```
+
+#### Parameters
+
+- `value`: The value to convert to a JSON5 string.
+- `replacer`: A function that alters the behavior of the stringification process, or an array of String and Number objects that serve as a whitelist for selecting/filtering the properties of the value object to be included in the JSON5 string. If this value is null or not provided, all properties of the object are included in the resulting JSON5 string.
+- `space`: A String or Number object that's used to insert white space into the output JSON5 string for readability purposes. If this is a Number, it indicates the number of space characters to use as white space; this number is capped at 10 (if it is greater, the value is just 10). Values less than 1 indicate that no space should be used. If this is a String, the string (or the first 10 characters of the string, if it's longer than that) is used as white space. If this parameter is not provided (or is null), no white space is used. If white space is used, trailing commas will be used in objects and arrays.
+- `options`: An object with the following properties:
+  - `replacer`: Same as the `replacer` parameter.
+  - `space`: Same as the `space` parameter.
+  - `quote`: A String representing the quote character to use when serializing strings.
+
+#### Return value
+
+A JSON5 string representing the value.
+
+### Node.js `require()` JSON5 files
+
+When using Node.js, you can `require()` JSON5 files by adding the following statement.
+
+```js
+require('json5/lib/register')
+```
+
+Then you can load a JSON5 file with a Node.js `require()` statement. For example:
+
+```js
+const config = require('./config.json5')
+```
+
+
+
+
+
+
+
+
+
+
 xxx
 
 === TO DO ===
