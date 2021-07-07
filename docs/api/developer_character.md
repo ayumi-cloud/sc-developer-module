@@ -21,10 +21,6 @@ endsWith | boolean | Determine if a given string ends with a given value.
 ensureLeading | string | Ensure that a string is starts with a special string.
 ensureTrailing | string | Ensure that a string is ends with a special string.
 escapeHtml | string | Escapes HTML and special chars using php's `filter_var`.
-
-filterIf | string | Esc..........
-
-
 formatDate | string | Always takes two arguments, the date's given format and the target format, following DateTime notation.
 fullStringClean | string | Clean strings against XSS attacks.
 healNaughtyHTMLElements | string | Heal naughty html elements.
