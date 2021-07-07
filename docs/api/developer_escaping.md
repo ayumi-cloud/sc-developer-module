@@ -208,26 +208,6 @@ console.log( DOMPurify.sanitize(dirty) );
 
 The JSON5 Data Interchange Format (JSON5) is a superset of [JSON](https://tools.ietf.org/html/rfc7159) that aims to alleviate some of the limitations of JSON by expanding its syntax to include some productions from [ECMAScript 5.1](https://www.ecma-international.org/ecma-262/5.1/).
 
-### Example 1 (basic code version)
-
-```js
-const JSON5 = require('json5');
-console.log(json5.parse("{ hello: 'world' }"));
-```
-
-or
-
-```js
-<script src="link to the json5 index.min.js"></script>
-console.log(json5.parse("{ hello: 'world' }"));
-```
-
-Result:
-
-```js
-{ hello: 'world' }
-```
-
 ### `JSON5.parse()`
 
 Parses a JSON5 string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.
@@ -286,15 +266,26 @@ Then you can load a JSON5 file with a Node.js `require()` statement. For example
 const config = require('./config.json5')
 ```
 
+### Example 1 (basic code version)
+
+```js
+const JSON5 = require('json5');
+console.log(json5.parse("{ hello: 'world' }"));
+```
+
+or
+
+```js
+<script src="link to the json5 index.min.js"></script>
+console.log(json5.parse("{ hello: 'world' }"));
+```
+
+Result:
+
+```js
+{ hello: 'world' }
+```
 
 
-
-
-
-
-
-
-
-xxx
 
 === TO DO ===
