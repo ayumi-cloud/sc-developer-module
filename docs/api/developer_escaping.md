@@ -25,7 +25,8 @@ echo $purifier->clean($html);
 Result:
 
 ```html
-<b>Simple and short</b> // Added the `</b>` tag.
+// Added the `</b>` tag.
+<b>Simple and short</b>
 ```
 
 ### Example 2 (short code version)
@@ -38,7 +39,8 @@ echo Purifier::clean($html);
 Result:
 
 ```html
-<b>Simple and short</b> // Added the `</b>` tag.
+// Added the `</b>` tag.
+<b>Simple and short</b>
 ```
 
 ### Example 3 (adding custom config)
@@ -51,7 +53,8 @@ echo Purifier::clean($html, ['HTML.Allowed' => 'a[href|target]']);
 Result:
 
 ```html
-<a href="#" target="_blank">test link</a> // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+// The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+<a href="#" target="_blank">test link</a>
 ``` 
 
 ## Twig
@@ -69,7 +72,8 @@ Below are some basic examples how to use the HTMLPurifier Service Provider with 
 Result:
 
 ```html
-<p>123</p> // Removed injected javascript code and added the `<p></p>` tags.
+// Removed injected javascript code and added the `<p></p>` tags.
+<p>123</p>
 ```
 
 ### Example 2 (adding custom config)
@@ -85,7 +89,8 @@ Result:
 Result:
 
 ```html
-<a href="#" target="_blank">test link</a> // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+// The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+<a href="#" target="_blank">test link</a>
 ``` 
 
 ## Javascript
