@@ -25,21 +25,21 @@ Below shows which libraries are being used to clean each coding language:
 
 Programming language | Third party library
 ---|---
+Audio | x
+CSS | x
+Fonts | OpenType Sanitizer
 HTML | HTML Purifier
+Images | x
 Javascript | DOMPurify
 JSON | JSON5
-PHP | HTML Purifier
 Laravel | HTML Purifier
 MathML | DOMPurify
-SVG | DOMPurify
-Fonts | OpenType Sanitizer
-Twig | HTML Purifier
-CSS | x
-YAML | x
-Images | x
-Audio | x
-Video | x
 PDF | x
+PHP | HTML Purifier
+SVG | DOMPurify
+Twig | HTML Purifier
+Video | x
+YAML | x
 
 
 ## Laravel
