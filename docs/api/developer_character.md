@@ -7,6 +7,7 @@ This api is for handling and cleaning Character, Strings and Arrays.
 Value | Return | Description
 ---|---|---
 aggressiveClean | string | Aggressive cleaning - all tags and stuff inside will be removed.
+capitalize | string | Capitalizes the first character of a string.
 checkUtf8Encoding | boolean | Check for invalid UTF8 encoding and invalid byte.
 compactAnyExplodedWords | string | Compact any exploded words.
 contains | boolean | Determine if a given string contains a given sub-string.
@@ -24,6 +25,7 @@ is | boolean | Determine if a given string matches a given pattern.
 isEvilPath | boolean | Check if contains evil path.
 isSerialized | boolean | Check value to find if it was serialized.
 isString | boolean | Check for a valid string.
+lowercase | string | Converts a string to lowercase.
 makesPhpTagsSafe | string | Make php tags safe.
 pregQuote | string | Wrapper for `preg_quote` supporting strings and array of strings.
 randomString | string | Random string for PHP7 or greater.
@@ -35,6 +37,7 @@ startsWith | boolean | Determine if a given string begins with a given value.
 strangeThingsAreSubmitted | string | Clean strange things that submitted.
 strposa | boolean | Checks an array for a match.
 trimDuplicateSpaces | string | Replaces duplicate spaces with a single space.
+uppercase | string | Converts a string to uppercase.
 validateStandardCharacterEntities | string | Validate standard character entities.
 validateUTF16TwoByteEncoding | string | Validate utf-16 two byte encoding.
 
