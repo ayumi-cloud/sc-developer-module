@@ -24,6 +24,8 @@ escapeHtml | string | Escapes HTML and special chars using php's `filter_var`.
 
 filterIf | string | Esc..........
 
+
+formatDate | string | Always takes two arguments, the date's given format and the target format, following DateTime notation.
 fullStringClean | string | Clean strings against XSS attacks.
 healNaughtyHTMLElements | string | Heal naughty html elements.
 healNaughtyScriptingElements | string | Heal naughty scripting elements.
