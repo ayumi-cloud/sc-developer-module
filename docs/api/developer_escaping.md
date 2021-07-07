@@ -275,7 +275,7 @@ console.log(json5.parse("{ hello: 'world' }"));
 
 or
 
-```js
+```html
 <script src="link to the json5 index.min.js"></script>
 <script>console.log(json5.parse("{ hello: 'world' }"));</script>
 ```
