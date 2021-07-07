@@ -8,6 +8,7 @@ Value | Return | Description
 ---|---|---
 aggressiveClean | string | Aggressive cleaning - all tags and stuff inside will be removed.
 capitalize | string | Capitalizes the first character of a string.
+cast | string | Casts a variable into the given type. Options are: integer, float, string, boolean, object, array and Laravel Collection.
 checkUtf8Encoding | boolean | Check for invalid UTF8 encoding and invalid byte.
 compactAnyExplodedWords | string | Compact any exploded words.
 contains | boolean | Determine if a given string contains a given sub-string.
