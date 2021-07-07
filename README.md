@@ -44,7 +44,7 @@
     - [Code Editor Version](#code-editor-version)
     - [Code Editor Themes Version](#code-editor-themes-version)
     - [Developer Core Version](#developer-core-version)
-- [Summer CMS Developer API's](#summer-cms-developer-apis--)
+- [Summer CMS Developer API's](#summer-cms-developer-apis-)
 - [Issues](#issues-)
 - [FAQ](#faq-)
 - [Troubleshooting](#troubleshooting-)
