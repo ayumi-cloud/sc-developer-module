@@ -34,6 +34,7 @@ removeNullCharacters | string | Remove null characters.
 startsWith | boolean | Determine if a given string begins with a given value.
 strangeThingsAreSubmitted | string | Clean strange things that submitted.
 strposa | boolean | Checks an array for a match.
+trimDuplicateSpaces | string | Replaces duplicate spaces with a single space.
 validateStandardCharacterEntities | string | Validate standard character entities.
 validateUTF16TwoByteEncoding | string | Validate utf-16 two byte encoding.
 
