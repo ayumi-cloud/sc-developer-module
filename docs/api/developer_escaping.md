@@ -24,7 +24,7 @@ echo $purifier->clean($html);
 
 Result:
 
-```html
+```php
 // Added the `</b>` tag.
 <b>Simple and short</b>
 ```
@@ -38,7 +38,7 @@ echo Purifier::clean($html);
 
 Result:
 
-```html
+```php
 // Added the `</b>` tag.
 <b>Simple and short</b>
 ```
@@ -52,7 +52,7 @@ echo Purifier::clean($html, ['HTML.Allowed' => 'a[href|target]']);
 
 Result:
 
-```html
+```php
 // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
 <a href="#" target="_blank">test link</a>
 ``` 
@@ -71,7 +71,7 @@ Below are some basic examples how to use the HTMLPurifier Service Provider with 
 
 Result:
 
-```html
+```php
 // Removed injected javascript code and added the `<p></p>` tags.
 <p>123</p>
 ```
@@ -88,7 +88,7 @@ Result:
 
 Result:
 
-```html
+```php
 // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
 <a href="#" target="_blank">test link</a>
 ``` 
