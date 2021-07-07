@@ -16,9 +16,11 @@ convertAllTabsToSpaces | string | Convert all tabs to spaces.
 convertCharacterEntitiesToASCII | string | Convert character entities to ascii.
 deleteLeading | string | Delete leading characters.
 deleteTrailing | string | Delete trailing characters.
+digit | string | Get only digit characters from the string.
 endsWith | boolean | Determine if a given string ends with a given value.
 ensureLeading | string | Ensure that a string is starts with a special string.
 ensureTrailing | string | Ensure that a string is ends with a special string.
+escapeHtml | string | Escapes HTML and special chars using php's `filter_var`.
 fullStringClean | string | Clean strings against XSS attacks.
 healNaughtyHTMLElements | string | Heal naughty html elements.
 healNaughtyScriptingElements | string | Heal naughty scripting elements.
