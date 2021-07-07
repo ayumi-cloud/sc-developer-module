@@ -2,45 +2,77 @@
 
 ### Escaping
 
-xxxxxxx
+[HTML Purifier](http://htmlpurifier.org/) is an HTML filtering solution that uses a unique combination of robust whitelists and agressive parsing to ensure that not only are XSS attacks thwarted, but the resulting HTML is standards compliant.
 
-#### Credit
+In depth information about configuration parameters can be found here: http://htmlpurifier.org/live/configdoc/plain.html
 
-This api is a **modified version** of the following vendor packages:
+[DOMPurify](https://cure53.de/purify) sanitizes HTML and prevents XSS attacks. You can feed DOMPurify with string full of dirty HTML and it will return a string (unless configured otherwise) with clean HTML. DOMPurify will strip out everything that contains dangerous HTML and thereby prevent XSS attacks and other nastiness. It's also damn bloody fast. We use the technologies the browser provides and turn them into an XSS filter. The faster your browser, the faster DOMPurify will be.
 
-- x
-- x
+JSON5 === TO DO ===
 
 ## Laravel
 
-xxx
+Below are some basic examples how to use the HTMLPurifier Service Provider with [Laravel](https://laravel.com/) web application framework:
 
-## Twig
+### Example 1 (long code version)
 
-xxx
+```php
+$purifier = $this->app->make('purifier');
+$html = '<b>Simple and short';
+echo $purifier->clean($html);
+```
 
-## Javascript
+Result:
 
-xxx
+```html
+<b>Simple and short</b> // Added the `</b>` tag.
+```
 
+### Example 2 (short code version)
 
+```php
+$html = '<b>Simple and short';
+echo Purifier::clean($html);
+```
 
+Result:
 
+```html
+<b>Simple and short</b> // Added the `</b>` tag.
+```
 
-#### Examples
+### Example 3 (adding custom config)
 
 ```php
 $html = '<a href="#" target="_blank">test link</a>';
 echo Purifier::clean($html, ['HTML.Allowed' => 'a[href|target]']);
 ```
 
-Outputs:
+Result:
 
 ```html
-<a href="#" target="_blank">test link</a>
+<a href="#" target="_blank">test link</a> // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+``` 
+
+## Twig
+
+Below are some basic examples how to use the HTMLPurifier Service Provider with [Twig](https://twig.symfony.com/) template engine:
+
+### Example 1 (basic code version)
+
+```twig
+{% set html = '<script>alert(\'XSS\');</script>123' %}
+
+{{ purify(html) }}
 ```
 
-- [x] Custom config - Twig side.
+Result:
+
+```html
+<p>123</p> // Removed injected javascript code and added the `<p></p>` tags.
+```
+
+### Example 2 (adding custom config)
 
 ```twig
 {% set html = '<a href="#" target="_blank">test link</a>' %}
@@ -48,18 +80,29 @@ Outputs:
 {% set config = '[\'HTML.Allowed\' => \'a[href|target]\']' %}
 
 {{ purify(html, config) }}
-
-{% set html = '<script>alert(\'XSS\');</script>123' %}
-
-{{ purify(html) }}
 ```
 
-Outputs:
+Result:
 
 ```html
-<a href="#" target="_blank">test link</a>
-<p>123</p>
-```
+<a href="#" target="_blank">test link</a> // The config settings allowed the `target="_blank"` attribute to be displayed in the result.
+``` 
+
+## Javascript
+
+xxx
+
+
+## JSON
+
+xxx
+
+
+
+#### Examples
+
+
+
 
 Value | Return | Description
 ---|---|---
