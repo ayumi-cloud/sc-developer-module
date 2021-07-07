@@ -36,6 +36,7 @@ removeNullCharacters | string | Remove null characters.
 startsWith | boolean | Determine if a given string begins with a given value.
 strangeThingsAreSubmitted | string | Clean strange things that submitted.
 strposa | boolean | Checks an array for a match.
+trim | string | Simple PHP `trim()` implementation.
 trimDuplicateSpaces | string | Replaces duplicate spaces with a single space.
 uppercase | string | Converts a string to uppercase.
 validateStandardCharacterEntities | string | Validate standard character entities.
