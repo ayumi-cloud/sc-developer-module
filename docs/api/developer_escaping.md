@@ -110,7 +110,7 @@ Currently supported Twig features are:
     - `{% purify %} <foo>bar</foo> {% endpurify %}` **Not supported - due to using an array method [dirty html | config] (see syntax below)**
 - Function
     - `{{ purify('<foo>bar</foo>') }}` **Fully supported!**
-    - `{{ purify('<foo>bar</foo>', '[\'HTML.Allowed\' => \'foo]' ) }}` **Fully supported!**
+    - `{{ purify('<foo>bar</foo>', '[\'HTML.Allowed\' => \'foo\']' ) }}` **Fully supported!**
 - Filter
     - `{{ '<foo>bar</foo>' | purify }}` **Not supported - due to using an array method [dirty html | config] (see syntax below)**
 
