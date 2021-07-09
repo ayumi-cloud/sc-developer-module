@@ -117,7 +117,7 @@ Currently supported Twig features are:
 #### Syntax
 
 ```
-{{ purify(dirtyHTML, config ) }}
+{{ purify( dirtyHTML, config ) }}
 ```
 
 - `dirtyHTML` = Dirty HTML to be cleaned (required).
