@@ -107,11 +107,21 @@ Twig versions supported:
 Currently supported Twig features are:
 
 - Tag
-    - `{% purify %} <foo>bar</foo> {% endpurify %}` **Not supported - due to ...**
+    - `{% purify %} <foo>bar</foo> {% endpurify %}` **Not supported - due to using an array method [dirty html | config] (see syntax below)**
 - Function
-    - `{{ purify(' <foo>bar</foo>') }}` **Fully supported!**
+    - `{{ purify('<foo>bar</foo>') }}` **Fully supported!**
+    - `{{ purify('<foo>bar</foo>', '[\'HTML.Allowed\' => \'foo]' ) }}` **Fully supported!**
 - Filter
-    - `{{ ' <foo>bar</foo>' | purify }}` **Not supported - due to ...**
+    - `{{ '<foo>bar</foo>' | purify }}` **Not supported - due to using an array method [dirty html | config] (see syntax below)**
+
+#### Syntax
+
+```
+{{ purify(dirtyHTML, config ) }}
+```
+
+- `dirtyHTML` = Dirty HTML to be cleaned (required).
+- `config` = Options can be added (optional).
 
 Below are some basic examples how to use the HTMLPurifier Service Provider with [Twig](https://twig.symfony.com/) template engine:
 
