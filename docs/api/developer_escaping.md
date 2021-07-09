@@ -98,6 +98,21 @@ Result:
 
 ## Twig
 
+Twig versions supported:
+
+```
+~2.7 || ^3
+```
+
+Currently supported Twig features are:
+
+- Tag
+    - `{% purify %} <foo>bar</foo> {% endpurify %}` **Not supported - due to ...**
+- Function
+    - `{{ purify(' <foo>bar</foo>') }}` **Fully supported!**
+- Filter
+    - `{{ ' <foo>bar</foo>' | purify }}` **Not supported - due to ...**
+
 Below are some basic examples how to use the HTMLPurifier Service Provider with [Twig](https://twig.symfony.com/) template engine:
 
 ### Example 1 (basic code version)
