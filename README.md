@@ -8,8 +8,10 @@
 
 ---------
 
-  WARNING CURRENTLY BEING WRITTEN
-  
+WARNING CURRENTLY BEING WRITTEN
+
+Coverage - Developer module code size: 5057 files as of july 2021.
+
 ---------
 
 
