@@ -116,7 +116,7 @@ Currently supported Twig features are:
 
 #### Syntax
 
-```
+```twig
 {{ purify( dirtyHTML, config ) }}
 ```
 
